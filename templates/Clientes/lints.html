@@ -1,0 +1,8 @@
+<h1>Lista de Clientes</h1>
+<ul>
+{% for Cliente in Clientes %}
+<li>{{ Cliente.nombre }}</li>
+{% empty %}
+<li>No hay Clientes disponibles.</li>
+{% endfor %}
+</ul>

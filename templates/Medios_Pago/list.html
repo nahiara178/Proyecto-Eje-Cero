@@ -1,0 +1,8 @@
+<h1>Lista de Medios_Pago</h1>
+<ul>
+{% for Medios_Pago in Medios_Pago %}
+<li>{{ Medios_Pago.nombre }}</li>
+{% empty %}
+<li>No hay Medios_Pago disponibles.</li>
+{% endfor %}
+</ul>

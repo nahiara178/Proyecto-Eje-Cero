@@ -1,0 +1,8 @@
+<h1>Lista de Vendedores</h1>
+<ul>
+{% for Vendedor in Vendedores %}
+<li>{{ Vendedor.nombre }}</li>
+{% empty %}
+<li>No hay Vendedores disponibles.</li>
+{% endfor %}
+</ul>

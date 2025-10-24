@@ -1,0 +1,8 @@
+<h1>Lista de Indumentarias</h1>
+<ul>
+{% for Indumentaria in Indumentarias %}
+<li>{{ Indumentaria.nombre }}</li>
+{% empty %}
+<li>No hay Indumentarias disponibles.</li>
+{% endfor %}
+</ul>

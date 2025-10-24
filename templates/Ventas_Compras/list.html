@@ -1,0 +1,8 @@
+<h1>Lista de Ventas_Compras</h1>
+<ul>
+{% for Ventas_Compra in Ventas_Compras %}
+<li>{{ Ventas_Compra.nombre }}</li>
+{% empty %}
+<li>No hay Ventas_Compras disponibles.</li>
+{% endfor %}
+</ul>
