@@ -1,5 +1,7 @@
 from django.db import models
 
+from apps import Indumentaria
+
 class Venta_Compra (models.Model):
     fecha = models.CharField()
     hora =models.CharField()
