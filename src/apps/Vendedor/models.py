@@ -2,9 +2,9 @@ from django.db import models
 
 # Create your models here.
 class Vendedor(models.Model):
-    nombre = models.CharField(max_length=100)
+    nombre = models.CharField()
     apellido = models.CharField()
-    telefono = models.IntegerField(max_length=100)
+    telefono = models.IntegerField()
     correo = models.CharField()
     direccion = models.CharField()
 
